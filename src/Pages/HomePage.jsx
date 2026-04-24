@@ -24,6 +24,9 @@ export const HomePage = () => {
     }, [])
     return (
         <div style={{ backgroundColor: "#F2F5F9" }}>
+            <h1 style={{ textAlign: "center", color: "red" }}>
+                Book My Show - Deployed via Jenkins 🚀
+            </h1>
             <AddCarousel />
             <RecommendedMovies />
             <Entertainment />
